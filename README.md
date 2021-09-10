@@ -22,7 +22,7 @@ Explanation of Scripts:
  
  
 
-**-PlaneScreenSize.cs: **
+**-PlaneScreenSize.cs:**
  
 This script automatically resizes the base surface of our game to any mobile screen & creates colliders around the borders. 
 
