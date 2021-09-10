@@ -38,7 +38,7 @@ This script automatically resizes the base surface of our game to any mobile scr
 
 The purpose of this script is to bind slider easily & efficiently for the QA testers or the Developer itself to make changes and test in real time 
 
-There are other scripts i.e MaterialColorChange which helps to change color without creating a material, in renderer stage. It is one of the best solutions to prototype Level Design much  faster. 
+There are other scripts i.e **MaterialColorChange** which helps to change color without creating a material, in renderer stage. It is one of the best solutions to prototype Level Design much  faster. 
 **
 Other Utilities:**  **Text Mesh pro**: To write Text in 3D world.
 **- Procedural UI** Image: To Create Images without download or making new one outside of unity engine. We can make directly in unity.
