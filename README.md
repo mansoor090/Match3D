@@ -2,7 +2,8 @@
 (Interview Test, taken by Leyla, Fauna Entertainment)
 
 
-This project is made with **Unity Engine 2019.4.30 (LTS)**, coded using language **C# version 7.3**.
+This project is made with **Unity Engine 2019.4.30 (LTS)**, coded using language **C# version 7.3**, IDE **JetBrain Rider 2020.3**  and **Blender v2.9** for basic model creation.
+
  
  
 
