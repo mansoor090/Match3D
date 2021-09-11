@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using MansoorGlobal;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
@@ -65,6 +66,9 @@ namespace Match3D
 		void LoadValues()
 		{
 			
+			throwForce = SaveData.Instance.throwForce;
+			height = SaveData.Instance.height;
+			lerpSpeed = SaveData.Instance.followSpeed;
 		}
 
 		void Update()
@@ -122,7 +126,7 @@ namespace Match3D
 				{
 					currentCollider.enabled      = true;
 					currentRigidbody.isKinematic = false;
-					currentRigidbody.AddForce(new Vector3(deltaChange.x, 0f, deltaChange.y).normalized * throwForce, ForceMode.Acceleration);
+					currentRigidbody.AddForce(new Vector3(deltaChange.x, 0f, deltaChange.y) * throwForce, ForceMode.Acceleration);
 					// empty Object
 					currentObj       = null;
 					currentRigidbody = null;

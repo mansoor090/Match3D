@@ -22,7 +22,7 @@ namespace Match3D
 
 		void OnEnable()
 		{
-			ThrowSlider.Init("Throw Force", SaveData.Instance.throwForce, new Vector2(0.1f, 15f), (float value) =>
+			ThrowSlider.Init("Throw Force", SaveData.Instance.throwForce, new Vector2(1, 100f), (float value) =>
 			{
 				playerInput.ThrowForce       = value;
 				SaveData.Instance.throwForce = value;
@@ -40,9 +40,9 @@ namespace Match3D
 				SaveData.Instance.followSpeed = value;
 				SaveLoad.SaveProgress();
 			});
-			denialThrow.Init("Denial Throw Back", SaveData.Instance.followSpeed, new Vector2(0.1f, 2f), (float value) =>
+			denialThrow.Init("Denial Throw Back", SaveData.Instance.denialForce, new Vector2(0.1f, 2f), (float value) =>
 			{
-				SaveData.Instance.followSpeed = value;
+				SaveData.Instance.denialForce = value;
 				SaveLoad.SaveProgress();
 			});
 		}

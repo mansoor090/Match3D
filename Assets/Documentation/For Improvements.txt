@@ -2,8 +2,10 @@
 fun than the original. 
 
 Suggestions:
-- Multiple Holes (Done).
-- Add Easy ML Agent AI (added in few hyper casual games).
-- Add Simple AI (Mostly used). 
+. Multiple Holes (Done). 
+            - We Can Put Restrictions based on Tags if placed on wrong hole  i.e Life Points. 
+            - Or We may put restrictions only on tag, no negative marking like trend of hypercausal. 
+. Add Easy ML Agent AI (added in few hyper casual games).
+. Add Simple AI (Mostly used). 
 
  The purpose of AI (Bot) is to allow user/player play against it and try to beat the AI.  
